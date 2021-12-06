@@ -23,3 +23,5 @@ $connection = [
 
 // Obtemos o Entity Manager
 $entityManager = EntityManager::create($connection, $configuration);
+
+?>
