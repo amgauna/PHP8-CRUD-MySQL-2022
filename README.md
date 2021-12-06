@@ -1,1 +1,0 @@
-# CRUD-Aplicacao-PHP-Phreeze
