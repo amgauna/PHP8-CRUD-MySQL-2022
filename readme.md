@@ -1,5 +1,5 @@
 
-# CRUD PHP MYSQL
+# PHP / CRUD / MYSQL
 
 ### Aprenda a construir um CRUD simples, fácil e rápido
 
