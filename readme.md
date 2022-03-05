@@ -11,9 +11,7 @@
  
 -------------------------------------------------------------------
 
-### Aprenda a construir um PHP MySQL CRUD simples, fácil e rápido
-
-#### CRUD pastas:
+### Aprenda a construir um PHP MySQL CRUD simples, fácil e rápido / CRUD pastas:
 
 #### /config/
 = pasta onde será armazenado toda a lógica de configuração da aplicação.
