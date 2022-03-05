@@ -27,10 +27,3 @@
 
 -------------------------------------------------------------------
 
-# MySQL / Oracle-SQL 
-
-* MySQL Manual = https://dev.mysql.com/doc/refman/8.0/en/language-structure.html
-
-* Oracle SQL11 = https://docs.oracle.com/cd/E11882_01/server.112/e41085/sqlqr01001.htm#SQLQR110
- 
--------------------------------------------------------------------
