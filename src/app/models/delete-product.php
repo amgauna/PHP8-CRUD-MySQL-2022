@@ -1,7 +1,7 @@
 <?php 
 
 // Importamos o autoload do composer
-require_once __DIR__.'/../config/bootstrap.php';
+require_once __DIR__.'../src/app/config/bootstrap.php';
 
 // Como vamos trabalhar com envio de dados passados pelo terminal
 // apenas garanto que haja valor para que seja processado a ação.
@@ -11,7 +11,7 @@ if(isset($entityManager)){
     $id = $argv[1];
 
     // Pesquisamos para valizar existência do produto no banco de dados
-    $product = $entityManager->find('DiegoBrocanelli\Product', $id);
+    $product = $entityManager->find('nome\Product', $id);
 
     // Caso produto não seja localizado, será retornado mensagem infromando o usuário
     if ($product === null) {
