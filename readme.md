@@ -22,10 +22,10 @@
 * /src/app/models
 * /src/app/views
 
-* /src/config/
+* /src/app/config/
 = pasta onde será armazenado toda a lógica de configuração da aplicação.
 
-* src/database/
+* src/app/database/
 = pasta responsável por armazenar o banco de dados (SQLite) e o dump que será gerado.
 
 #### composer.json
