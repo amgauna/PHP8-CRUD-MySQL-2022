@@ -18,6 +18,8 @@
 * /src/
 = pasta responsável por conter toda a lógica da nossa aplicação.
 
+* /src/app/assets/ = pasta responsável por guardar os arquivos de imagem jpg, gif, png, arquivos de script css, arquivos javascript.
+* 
 * /src/app/controller/
 * /src/app/models/
 * /src/app/views/
