@@ -1,9 +1,9 @@
 <?php
 
-require_once '../src/app/config.php';
-require_once '../src/app/models/user.php';
+require_once '../src/app/config/config.php';
+require_once '../src/app/controllers/user.php';
 require_once '../src/app/models/messages.php';
-require_once '../partials/header.php';
+require_once '../src/app/models/header.php';
 
 $users = readUserAction($conn);
 
@@ -29,10 +29,10 @@ $users = readUserAction($conn);
             <td class="user-email"><?=htmlspecialchars($row['email'])?></td>
             <td class="user-phone"><?=htmlspecialchars($row['phone'])?></td>
             <td>
-                <a class="btn btn-primary text-white" href="./edit.php?id=<?=$row['id']?>">Edit</a>
+                <a class="btn btn-primary text-white" href="../src/app/models/edit.php?id=<?=$row['id']?>">Edit</a>
             </td>
             <td>
-                <a class="btn btn-danger text-white" href="./delete.php?id=<?=$row['id']?>">Remove</a>
+                <a class="btn btn-danger text-white" href="../src/app/models/delete.php?id=<?=$row['id']?>">Remove</a>
             </td>
         </tr>
         <?php endforeach; ?>
