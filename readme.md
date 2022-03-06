@@ -15,14 +15,18 @@
 
 ### CRUD pastas:
 
-#### /config/
+* /src/
+= pasta responsável por conter toda a lógica da nossa aplicação.
+
+* /src/app/controller
+* /src/app/models
+* /src/app/views
+
+* /src/config/
 = pasta onde será armazenado toda a lógica de configuração da aplicação.
 
-#### /db/
+* src/database/
 = pasta responsável por armazenar o banco de dados (SQLite) e o dump que será gerado.
-
-#### /src/
-= pasta responsável por conter toda a lógica da nossa aplicação.
 
 #### composer.json
 = arquivo com as configurações do composer para o projeto.
