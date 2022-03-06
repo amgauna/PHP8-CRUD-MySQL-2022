@@ -1,8 +1,8 @@
 <?php
 
 require_once '../../../config.php';
-require_once '../../actions/user.php';
-require_once '../partials/header.php';
+require_once '../../controller/user.php';
+require_once '../models/header.php';
 
 if(isset($_POST['id']))
     deleteUserAction($conn, $_POST['id']);
@@ -15,7 +15,7 @@ if(isset($_POST['id']))
     </div>
     <div class="row flex-center">
         <div class="form-div">
-            <form class="form" action="../../pages/user/delete.php" method="POST">
+            <form class="form" action="../../models/delete.php" method="POST">
                 <label>Do you really want to remove the user?</label>
                 <input type="hidden" name="id" value="<?=$_GET['id']?>" required/>
 
@@ -24,4 +24,4 @@ if(isset($_POST['id']))
         </div>
     </div>
 </div>
-<?php require_once '../partials/footer.php'; ?>
+<?php require_once '../models/footer.php'; ?>
