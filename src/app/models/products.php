@@ -1,6 +1,6 @@
 <?php 
 
-namespace DiegoBrocanelli;
+namespace Aplicativo_CRUD_MVC;
 
 /**
  * @Entity @Table(name="products")
