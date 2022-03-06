@@ -18,9 +18,9 @@
 * /src/
 = pasta responsável por conter toda a lógica da nossa aplicação.
 
-* /src/app/controller
-* /src/app/models
-* /src/app/views
+* /src/app/controller/
+* /src/app/models/
+* /src/app/views/
 
 * /src/app/config/
 = pasta onde será armazenado toda a lógica de configuração da aplicação.
@@ -28,7 +28,7 @@
 * src/app/database/
 = pasta responsável por armazenar o banco de dados (SQLite) e o dump que será gerado.
 
-* /src/ composer.json
+* /src/composer.json
 = arquivo com as configurações do composer para o projeto.
 
 -------------------------------------------------------------------
