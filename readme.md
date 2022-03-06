@@ -21,9 +21,9 @@
 * /src/app/assets/ = pasta responsável por guardar os arquivos de imagem jpg, gif, png, arquivos de script css, arquivos javascript.
  
 * /src/app/controller/ = pasta responsável por guardar os arquivos de conexão, router, controle de servidor, controle de usuários.
-* 
+
 * /src/app/models/ = pasta responsável por guardar os arquivos de template da aplicação, delete, inclusão, etc
-* 
+ 
 * /src/app/views/ = pasta responsável por guardar os arquivos de visualização de informações, relatórios, etc.
 
 * /src/app/config/
