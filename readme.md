@@ -28,7 +28,7 @@
 * src/app/database/
 = pasta responsável por armazenar o banco de dados (SQLite) e o dump que será gerado.
 
-#### composer.json
+* /src/ composer.json
 = arquivo com as configurações do composer para o projeto.
 
 -------------------------------------------------------------------
