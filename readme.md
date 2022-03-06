@@ -21,6 +21,7 @@
 * /src/app/controller/
 * /src/app/models/
 * /src/app/views/
+* /src/app/router/
 
 * /src/app/config/
 = pasta onde será armazenado toda a lógica de configuração da aplicação.
