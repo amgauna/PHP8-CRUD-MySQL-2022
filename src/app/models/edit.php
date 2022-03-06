@@ -1,8 +1,8 @@
 <?php
 
-require_once '../../../config.php';
-require_once '../../controllers/user.php';
-require_once '../models/header.php';
+require_once '../src/app/config/config.php';
+require_once '../src/app/controllers/user.php';
+require_once '../src/app/models/header.php';
 
 if (isset($_POST["id"], $_POST["name"]) && isset($_POST["email"]) && isset($_POST["phone"]))
     updateUserAction($conn, $_POST["id"], $_POST["name"], $_POST["email"], $_POST["phone"]);
@@ -13,7 +13,7 @@ $user = findUserAction($conn, $_GET['id']);
 <div class="container">
     <div class="row">
         <a href="../../../index.php"><h1>Users - Edit</h1></a>
-        <a class="btn btn-success text-white" href="../../../index.php">Prev</a>
+        <a class="btn btn-success text-white" href="../src/app/index.php">Prev</a>
     </div>
     <div class="row flex-center">
         <div class="form-div">
@@ -31,4 +31,4 @@ $user = findUserAction($conn, $_GET['id']);
         </div>
     </div>
 </div>
-<?php require_once '../models/footer.php'; ?>
+<?php require_once '../src/app/models/footer.php'; ?>
