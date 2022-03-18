@@ -1,12 +1,10 @@
 {
-    "require": {
-        "doctrine/orm": "^2.5",
-        "doctrine/dbal": "^2.5",
-        "symfony/yaml": "^3.2"
-    },
-    "autoload":{
-        "psr-4":{
-            "DiegoBrocanelli\\":"src/"
-        }
+    "authors": [
+    {
+        "name": "Ana Mercedes Gauna",
+        "email": "amgauna@gmail.com",
+        "homepage": "http://www.anagauna.eti.br",
+        "role": "Senior Systems Analyst"
     }
+]
 }
